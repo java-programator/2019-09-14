@@ -21,6 +21,7 @@ public class LeapYearMain {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        // ctrl + d - to stop running
         while (scanner.hasNext()) {
             int year = scanner.nextInt();
             System.out.println(isLeapYear(year));
